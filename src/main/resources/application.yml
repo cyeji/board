@@ -2,6 +2,10 @@ spring:
   application:
     name: board
   datasource:
-    url: jdbc:mysql://localhost:3306/testdb?useSSL=false&serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/testdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul
     username: test
     password: test1234
+
+jasypt:
+  encryptor:
+    password: myencryptionpassword

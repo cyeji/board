@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: board
+  datasource:
+    url: ENC(FSbWYKlpzlWzmNOMKKdS/zoV8dUEorU3ViUCrC93hiwZD2GSPIz9J1u1wZQwZ2TonXZQzWCw177bB90eEo5BLaAShauUkANUC1hdAO/rqhkmB4lrt/XO8g==)
+    username: ENC(cBcbVtAz48/oXcJDdtFJSw==)
+    password: ENC(TSOG29lrFkXL4mLbLPHtfCteoP56uPPY)
+
+jasypt:
+  encryptor:
+    password: myencryptionpassword
